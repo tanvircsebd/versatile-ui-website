@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Playwrite+BE+VLG:wght@100..400&family=Playwrite+CU:wght@100..400&family=Playwrite+DK+Loopet:wght@100..400&display=swap');
+*{
+    font-family: "Inter", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image:url(../images/cool-background\ \(1\).png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width:  1005px;
+    margin:0 auto;
+
+}
+
+.header-section ,
+.habit-section-container ,
+.run-container ,
+.team-images,
+.about-container
+{
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+header{
+    background: linear-gradient(360.00deg, rgb(17, 17, 17),rgba(119, 119, 119, 0) 100%);;
+}
+
+
+/* navbar section */
+.navbar{
+    padding-top: 20px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    color: rgb(230, 83, 60);
+    font-size: 2rem;
+    font-weight: 800;
+    font-style: italic;
+}
+#home{
+    background: #E6533C;
+    padding: 6px 20px;
+    border-radius: 15px;
+    color: #ffff;
+}
+.nav-item ul{
+    display: flex;
+    gap: 40px;
+}
+.nav-item ul li{
+    list-style: none;
+}
+.nav-item ul li a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);;
+}
+.nav-item i{
+    display: none;
+}
+
+
+/* banner section */
+.banner-container{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+}
+.banner-text h2{
+    color: #ffff;
+    font-size: 4rem;
+    font-weight: 800;
+    margin-bottom: 30px;
+}
+.banner-text h2 span{
+    font-family: "Playwrite CU", cursive;
+    font-weight: 400;
+}
+.banner-text p{
+    color:rgba(255, 255, 255, 0.5);
+    line-height: 25px;
+}
+ .btn{
+    margin-top: 30px;
+    width: 150px;
+    height: 40px;
+    padding: 10px 20px;
+    color: #ffff;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 20px;
+    cursor: pointer;
+    background: transparent;
+}
+#Join-club-btn{
+    background: rgb(230, 83, 60);
+    border: none;
+}
+.banner-img{
+    width: 50%;
+    position: relative;
+}
+.banner-img img{
+    width: 100%;
+    height: 100%;
+}
+.video-titurial ,
+.free-work-video{
+    width: 120px;
+    height: 70px;
+    position: absolute;
+    left: 62%;
+    top: 20%;
+    color: #ffff;
+    box-sizing: border-box;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    backdrop-filter: blur(20px);
+    background: rgba(255, 255, 255, 0.1);
+}
+
+.bottom{
+    top: 70%;
+    left: -10%;
+
+}
+
+.video-titurial-heading,
+.free-work-video-heading
+{
+    font-size:1.5rem ;
+    font-weight: 800;
+    color: #ffff;
+}
+
+
+.video-titurial-heading i{
+    color: rgb(230, 83, 60);
+}
+
+
+.video-titurial-text,
+.free-work-video-text{
+    font-size: 0.6rem;
+    color: rgba(255, 255, 255, 0.65);
+}
