@@ -6,7 +6,7 @@
     padding: 0;
 }
 body{
-    background-image:url(../images/cool-background\ \(1\).png);
+    background-image:url(../images/cool-background.png);
     background-repeat: no-repeat;
     background-size: cover;
     max-width:  1005px;
@@ -62,6 +62,8 @@ header{
 .nav-item i{
     display: none;
 }
+
+
 
 
 /* banner section */
@@ -146,4 +148,224 @@ header{
 .free-work-video-text{
     font-size: 0.6rem;
     color: rgba(255, 255, 255, 0.65);
+}
+
+
+/* About us section start */
+.about-container{
+    margin-top: 80px;
+    padding-bottom: 30px;
+}
+.about-content{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+.about-img img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+.about-text{
+    width: 70%;
+}
+.about-text h5{
+    margin-bottom: 20px;
+    font-size: 3rem;
+    color: #ffff;
+}
+.about-text h5 span{
+    color: #E6533C;
+}
+.about-text p{
+    color:rgba(255, 255, 255, 0.5);
+    line-height: 22px;
+}
+.experiances{
+    margin-top: 50px;
+    display:grid;
+    grid-template-columns: repeat(4,1fr);
+    text-align: center;
+}
+.experiances h4{
+    font-size: 2rem;
+    font-weight: 800;
+    color: #ffff;
+}
+.experiances h4 span{
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #E6533C;
+}
+.experiances p{
+    color:rgba(255, 255, 255, 0.5);
+    margin-top: 8px;
+}
+.border{
+    margin-top: 30px;
+    border-left:2px solid rgba(255, 255, 255, 0.5);
+    padding-left: 20px;
+}
+
+
+
+/* habit section */
+.habit-section-container{
+    background: rgb(0, 0, 0);
+    margin-top: 80px;
+    color: #ffff;
+}
+.habit-section-heading{
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+}
+.habit-section-heading h2{
+    font-size: 2rem;
+    font-weight: 800;
+    padding-bottom: 10px;
+}
+.habit-section-heading p{
+    color: rgba(255, 255, 255, 0.5);
+    line-height: 25px;
+}
+.habit-section-img{
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    text-align: center;
+    gap: 30px;
+}
+.habit-section-img img{
+    border-radius: 50%;
+}
+.img1 h4{
+    font-size:1.2rem;
+    color: rgb(255, 255, 255);
+    padding: 10px 0;
+}
+.img1 p{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 0.85rem;
+}
+
+/* footer section */
+
+footer{
+    max-width: 1005px;
+    margin: 0 auto;
+    margin-top: 80px;
+    background: rgba(255, 255, 255, 0.1);
+}
+.footer-container{
+    padding-top: 30px;
+    width: 90%;
+    margin:auto;
+    margin-top: 20px;
+}
+.footer-content{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 50px;
+}
+.fitness-content{
+    width: 40%;
+}
+.fitness-content h1{
+    font-size: 2rem;
+    font-weight: 800;
+    color: rgb(230, 83, 60);
+    padding-bottom: 20px;
+    font-style: italic;
+}
+.fitness-content p{
+    color: rgba(255, 255, 255, 0.5);
+    line-height: 25px;
+}
+.get-started-content1 h2{
+    color: #ffff;
+    padding-bottom: 20px;
+}
+.get-started-content1 p{
+    line-height: 30px;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.copy-right-text{
+    text-align: center;
+    padding: 20px 0;
+    color: rgba(255, 255, 255, 0.5); 
+}
+
+
+
+@media screen  and (max-width:576px){
+    .navbar{
+        padding: 20px 20px;
+    }
+    .nav-item ul{
+        display: none;
+    }
+    .nav-item i{
+        display: block;
+    }
+}
+
+
+
+/* banner section responsive */
+@media screen  and (max-width:576px){
+    .banner-container{
+        flex-direction: column;
+        padding: 0px 20px;
+    }
+    .banner-text h2{
+        font-size: 2.5rem;
+    }
+    .banner-img{
+        margin-top: 30px;
+        width: 100%;
+    }
+    .bottom{
+        left:0%;
+    
+    }
+}
+
+
+@media screen and (max-width:576px){
+    .about-container{
+        padding: 0px 20px;
+    }
+    .about-content{
+        flex-direction: column;
+    }
+    .about-text{
+        width: 100%;
+    }
+    .experiances{
+        grid-template-columns: repeat(2,1fr);
+    }
+}
+
+@media screen and (max-width:576px){
+    .habit-section-img{
+        grid-template-columns: 1fr;
+    }
+    .habit-section-heading{
+        padding: 20px;
+    }
+    
+}
+
+@media screen and (max-width:576px) {
+    .footer-content{
+        flex-direction: column;
+    }
+    .fitness-content{
+        width: 100%;
+    }
+    .get-started-content1 h2{
+        margin-top: 20px;
+    }
 }
