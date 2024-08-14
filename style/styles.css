@@ -592,7 +592,7 @@ footer{
 /* Our team section responsive */
 @media screen and (max-width:576px) {
     .team-images{
-        margin: 30px 20px;
+        margin: 40px 20px;
         grid-template-columns: 1fr;
     }
     
