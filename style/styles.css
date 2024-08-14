@@ -249,6 +249,99 @@ header{
     font-size: 0.85rem;
 }
 
+/* run and extra section */
+.run-container{
+    background: #222222;
+    margin-top: 80px;
+    color: #ffff;
+    display: flex;
+    gap: 50px;
+    padding: 20px;
+    border-radius: 10px;
+}
+.run-text{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.run-text h2{
+    font-size: 2rem;
+    letter-spacing: 2px;
+    font-weight: 800;
+    margin-bottom: 10px;
+}
+.run-text p{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 0.85rem;
+    line-height: 20px;
+}
+ .another-btn{
+    background: rgb(230, 83, 60);
+    border: none;
+}
+.run-img{
+    width: 50%;
+}
+.run-img img{
+    width: 100%;
+    border-radius: 20px;
+}
+
+/* our team section */
+.team-section-heading{
+    max-width: 600px;
+    margin: 0 auto;
+    color: #ffff;
+    margin-top: 50px;
+    text-align: center;
+}
+.team-section-heading h2{
+    font-size: 2rem;
+    font-weight: 800;
+    margin-bottom: 10px;
+}
+.team-section-heading p{
+    color: rgba(255, 255, 255, 0.5);
+    line-height: 20px;
+    font-size: 0.85rem;
+}
+
+.team-images{
+    padding: 10px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+    color: #ffff;
+    margin-top: 30px;
+    background:#222222;
+    border-radius: 10px;
+}
+
+.team-img img{
+    width: 100%;
+    height: 230px;
+    border-radius: 10px;
+    
+}
+.team-img{
+    position: relative;
+}
+.team-img h4{
+    position: absolute;
+    top: 75%;
+    left: 5%;
+    background: none;
+}
+.team-img p{
+    position: absolute;
+    top: 84%;
+    left: 5%;
+    background: none;
+}
+
+
+
 /* footer section */
 
 footer{
@@ -354,6 +447,29 @@ footer{
     }
     .habit-section-heading{
         padding: 20px;
+    }
+    
+}
+
+/* run section resfonsive */
+@media screen and (max-width:576px){
+    .run-container{
+        flex-direction: column;
+         margin: 80px 20px;
+    }
+    .run-text{
+        width: 100%;
+    }
+    .run-img{
+        width: 100%;
+    }
+}
+
+/* Our team section responsive */
+@media screen and (max-width:576px) {
+    .team-images{
+        margin: 30px 20px;
+        grid-template-columns: 1fr;
     }
     
 }
