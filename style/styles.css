@@ -9,16 +9,10 @@ body{
     background-image:url(../images/cool-background.png);
     background-repeat: no-repeat;
     background-size: cover;
-    max-width:  1005px;
+    max-width:  1000px;
     margin:0 auto;
-
 }
-
-.header-section ,
-.habit-section-container ,
-.run-container ,
-.team-images,
-.about-container
+.header-section ,.habit-section-container ,.run-container ,.team-images,.about-container
 {
     max-width: 900px;
     margin: 0 auto;
@@ -28,8 +22,6 @@ header{
     background: linear-gradient(360.00deg, rgb(17, 17, 17),rgba(119, 119, 119, 0) 100%);;
 }
 
-
-/* navbar section */
 .navbar{
     padding-top: 20px;
     align-items: center;
@@ -63,10 +55,7 @@ header{
     display: none;
 }
 
-
-
-
-/* banner section */
+/* banner */
 .banner-container{
     display: flex;
     justify-content: space-between;
@@ -109,8 +98,7 @@ header{
     width: 100%;
     height: 100%;
 }
-.video-titurial ,
-.free-work-video{
+.video-titurial ,.free-work-video{
     width: 120px;
     height: 70px;
     position: absolute;
@@ -123,35 +111,25 @@ header{
     backdrop-filter: blur(20px);
     background: rgba(255, 255, 255, 0.1);
 }
-
 .bottom{
     top: 70%;
     left: -10%;
-
 }
 
-.video-titurial-heading,
-.free-work-video-heading
+.video-titurial-heading,.free-work-video-heading
 {
     font-size:1.5rem ;
     font-weight: 800;
     color: #ffff;
 }
-
-
 .video-titurial-heading i{
     color: rgb(230, 83, 60);
 }
-
-
-.video-titurial-text,
-.free-work-video-text{
+.video-titurial-text,.free-work-video-text{
     font-size: 0.6rem;
     color: rgba(255, 255, 255, 0.65);
 }
-
-
-/* About us section start */
+/* About us */
 .about-container{
     margin-top: 80px;
     padding-bottom: 30px;
@@ -207,11 +185,9 @@ header{
     padding-left: 20px;
 }
 
-
-
 /* habit section */
 .habit-section-container{
-    background: rgb(0, 0, 0);
+    background: black;
     margin-top: 80px;
     color: #ffff;
 }
@@ -249,7 +225,6 @@ header{
     font-size: 0.85rem;
 }
 
-/* run and extra section */
 .run-container{
     background: #222222;
     margin-top: 80px;
@@ -288,7 +263,7 @@ header{
     border-radius: 20px;
 }
 
-/* our team section */
+/* team styles */
 .team-section-heading{
     max-width: 600px;
     margin: 0 auto;
@@ -317,12 +292,10 @@ header{
     background:#222222;
     border-radius: 10px;
 }
-
 .team-img img{
     width: 100%;
     height: 230px;
-    border-radius: 10px;
-    
+    border-radius: 10px;    
 }
 .team-img{
     position: relative;
@@ -340,9 +313,171 @@ header{
     background: none;
 }
 
+/* Calculate section */
+.calculator{
+    max-width:1005px ;
+    margin: 0 auto;
+    margin-top: 50px;
+    color: #ffff;
+}
+.calc-heading{
+    max-width: 500px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+.calc-heading h2{
+    font-size: 2.3rem;
+    color: #ffff;
+    font-weight: 800;
+}
+.calc-heading p{
+    color: rgba(255, 255, 255, 0.5);
+    line-height: 25px;
+}
 
+.calccontent{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+    margin-bottom: 30px;
+    
+}
+.calculator-color{
+    background: rgb(34, 34, 34);
+    padding: 30px 0px;
+}
 
-/* footer section */
+.BMI-calculate-chart table{
+    border-collapse: collapse;
+    margin-top: 50px;
+}
+td ,th{
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    padding: 10px 15px;
+}
+
+td{
+    color: rgba(255, 255, 255, 0.5);
+}
+.calc-bmi{
+    width: 60%;
+}
+.calc-bmi p{
+    color: rgba(255, 255, 255, 0.5);
+    padding-top: 30px;
+    line-height: 25px;
+}
+.calc-bmi-input{
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 20px;
+}
+.calc-bmi-input input ,select{
+    padding: 10px 30px ;
+    border: none;
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.1);
+    color: rgba(255, 255, 255, 0.5);
+}
+#activity{
+    grid-column: span 2;
+}
+
+@media screen and (max-width:576px){
+    .calccontent{
+        flex-direction: column;
+    }
+    .calc-bmi{
+        width: 100%;
+    }
+    .calc-bmi-input{
+        gap: 20px;
+    }
+    .calc-bmi-input input ,select{
+        width: 100%;
+        padding: 10px 0px 10px 10px;
+    }
+    .calc-heading{
+        padding: 20px;
+    }
+}
+.faq-container {
+    max-width: 880px;
+    margin: 50px auto;
+    background-color: #161414;
+    padding: 30px;
+    box-shadow: 0 0 15px rgba(15, 15, 14, 0.872);
+    border-radius: 10px;
+  }
+  
+  h1 {
+    text-align: center;
+    color: #fcfcfc;
+    margin-bottom: 20px;
+    font-size: 2em;
+  }
+  
+  .faq-item {
+    margin-bottom: 15px;
+    border-bottom: 1px solid #e6e6e6;
+    padding-bottom: 10px;
+  }
+  
+  .faq-toggle {
+    display: none;
+  }
+  
+  .faq-question {
+    display: block;
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #555;
+    cursor: pointer;
+    position: relative;
+    padding: 10px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .faq-question:hover {
+    background-color: #f9f9f9;
+  }
+  
+  .faq-question::after {
+    content: "+";
+    position: absolute;
+    right: 10px;
+    font-size: 1.5em;
+    color: #555;
+    transition: transform 0.3s ease;
+  }
+  
+  .faq-toggle:checked + .faq-question::after {
+    content: "-";
+    transform: rotate(45deg);
+  }
+  
+  .faq-answer {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease, padding 0.3s ease;
+    padding: 0 10px;
+  }
+  
+  .faq-toggle:checked ~ .faq-answer {
+    max-height: 200px;
+    padding: 10px;
+  }
+  
+  .faq-answer p {
+    margin: 0;
+    font-size: 1em;
+    color: #666;
+  }
+
+/* footer styles */
 
 footer{
     max-width: 1005px;
@@ -383,15 +518,11 @@ footer{
     line-height: 30px;
     color: rgba(255, 255, 255, 0.5);
 }
-
 .copy-right-text{
     text-align: center;
     padding: 20px 0;
     color: rgba(255, 255, 255, 0.5); 
 }
-
-
-
 @media screen  and (max-width:576px){
     .navbar{
         padding: 20px 20px;
@@ -403,10 +534,6 @@ footer{
         display: block;
     }
 }
-
-
-
-/* banner section responsive */
 @media screen  and (max-width:576px){
     .banner-container{
         flex-direction: column;
@@ -424,7 +551,6 @@ footer{
     
     }
 }
-
 
 @media screen and (max-width:576px){
     .about-container{
@@ -450,8 +576,6 @@ footer{
     }
     
 }
-
-/* run section resfonsive */
 @media screen and (max-width:576px){
     .run-container{
         flex-direction: column;

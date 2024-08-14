@@ -5,7 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Versatile UI</title>
     <link rel="stylesheet" href="./style/styles.css">
-    <!-- google fonts -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
@@ -26,7 +25,6 @@
                     <i class="fa-solid fa-bars" style="color: #fff;"></i>
                 </div>
             </nav>
-            <!-- navbar section end -->
             <!-- banner section -->
              <div class="banner-container">
                 <div class="banner-text">
@@ -81,7 +79,6 @@
                 </div>
             </div>
          </div>
-         <!-- about section end -->
         <!-- habit section -->
         <div class="habit-section-container">
             <div class="habit-section-heading">
@@ -111,9 +108,7 @@
                 </div>
             </div>
         </div>
-
-
-        <!-- Run and extra section -->
+        <!-- Run section -->
          <div class="run-container">
             <div class="run-text">
                 <h2>Run an Extra <br> Mile Easily</h2>
@@ -124,66 +119,64 @@
                 <img src="images/run.jpg" alt="">
             </div>
          </div>
-
-
-         <!-- calculator section -->
-          <div class="calcolator-container">
-            <div class="calculator-heading">
-                <h2>BMI Calculator</h2>
-                <p>Body Mass Index is a simple calculation using a person's height and weight. The formula is BMI = kg/m2 where kg is a person's weight in kilograms and m2 is their height in metres squared..</p>
-            </div>
-           <div class="calculator-color">
-            <div class="calculator-content">
-                <div class="BMI-calculate-chart">
-                    <h2>BMI Calculate Chart</h2>
-                    <table>
-                        <thead>
-                            <tr>
-                                <th>BMI</th>
-                                <th>Weight Status</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr>
-                                <td>Below 18.5</td>
-                                <td>Underweight</td>
-                            </tr>
-                            <tr>
-                                <td>18.5 - 24.9</td>
-                                <td>Healthy</td>
-                            </tr>
-                            <tr>
-                                <td>25.0 - 29.9</td>
-                                <td>Overweight</td>
-                            </tr>
-                            <tr>
-                                <td>30.0 - and Above</td>
-                                <td>Obese</td>
-                            </tr>
-                        </tbody>
-                    </table>
+             <!-- calculator section -->
+             <div class="calculator">
+                <div class="calc-heading">
+                    <h2>BMI Calculator</h2>
+                    <p>Body Mass Index is a simple calculation using a person's height and weight. The formula is BMI = kg/m2 where kg is a person's weight in kilograms and m2 is their height in metres squared..</p>
                 </div>
-                <div class="calculate-your-BMI">
-                    <h2>Calculate Your BMI</h2>
-                    <p>The formula is BMI = kg/m2 where kg is a person's weight in kilograms and m2 is their height in metres squared.</p>
-                    <div class="calculate-your-BMI-input">
-                        <input type="text" placeholder="Height/cm">
-                        <input type="text" placeholder="Weight/kg">
-                        <input type="text" placeholder="Age">
-                        <select name="" id="">
-                            <option value="Sex">Sex</option>
-                        </select>
-                        <select name="" id="activity">
-                            <option value="Select an activity factor">Select an activity factor</option>
-                        </select>
+               <div class="calculator-color">
+                <div class="calccontent">
+                    <div class="BMI-calculate-chart">
+                        <h2>BMI Calculate Chart</h2>
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th>BMI</th>
+                                    <th>Weight Status</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Below 18.5</td>
+                                    <td>Underweight</td>
+                                </tr>
+                                <tr>
+                                    <td>18.5 - 24.9</td>
+                                    <td>Healthy</td>
+                                </tr>
+                                <tr>
+                                    <td>25.0 - 29.9</td>
+                                    <td>Overweight</td>
+                                </tr>
+                                <tr>
+                                    <td>30.0 - and Above</td>
+                                    <td>Obese</td>
+                                </tr>
+                            </tbody>
+                        </table>
                     </div>
-                    <button class="btn another-btn">Calculate</button>
+                    <div class="calc-bmi">
+                        <h2>Calculate Your BMI</h2>
+                        <p>The formula is BMI = kg/m2 where kg is a person's weight in kilograms and m2 is their height in metres squared.</p>
+                        <div class="calc-bmi-input">
+                            <input type="text" placeholder="Height/cm">
+                            <input type="text" placeholder="Weight/kg">
+                            <input type="text" placeholder="Age">
+                            <select name="" id="">
+                                <option value="Sex">Sex</option>
+                            </select>
+                            <select name="" id="activity">
+                                <option value="Select an activity factor">Select an activity factor</option>
+                            </select>
+                        </div>
+                        <button class="btn another-btn">Calculate</button>
+                    </div>
                 </div>
-            </div>
-           </div>
-
-          </div>
-         <!-- Meet our team -->
+               </div>
+    
+              </div>
+         <!-- team section -->
          <div class="team-container">
             <div class="team-section-heading">
                 <h2>Meet Our Team</h2>
@@ -194,45 +187,70 @@
                     <img src="images/trainer_1.png" alt="">
                         <h4>Jerome Bell</h4>
                         <p>Trainer</p>
-            
                 </div>   
                 <div class="team-img">
                     <img src="images/trainer_2.png" alt="">
                         <h4>Cameron Williamson</h4>
                         <p>Trainer</p>
                 </div>
-    
                 <div class="team-img">
                     <img src="images/trainer_3.png" alt="">
                         <h4>Darrell steward</h4>
                         <p>Trainer</p>
                    </div>
-    
                 <div class="team-img">
                     <img src="images/trainer_4.png" alt="">
-                   
                         <h4>Dianne Russel</h4>
                         <p>Trainer</p>
-                
                 </div>
                 <div class="team-img">
                     <img src="images/trainer_5.png" alt="">
-                   
                         <h4>Cody Fisher</h4>
                         <p>Trainer</p>
-                    
                 </div>
-    
                 <div class="team-img">
                     <img src="images/trainer_6.png" alt="">
-                    
                         <h4>Theresa Webb</h4>
                         <p>Trainer</p>
-                    
                 </div>
               </div>
          </div>
+     <!-- FAQ -->
+      <section>
+        <div class="faq-container">
+          <h1>Frequently Asked Questions</h1>
+          <div class="faq-item">
+              <input type="checkbox" id="faq1" class="faq-toggle">
+              <label for="faq1" class="faq-question">What is FitLife?</label>
+              <div class="faq-answer">
+                  <p>FitLife is a 1 hour, full body workout, focused on training endurance, strength and/or power.</p>
+              </div>
+          </div>
+          <div class="faq-item">
+              <input type="checkbox" id="faq2" class="faq-toggle">
+              <label for="faq2" class="faq-question">I have issues with (part of the body). Can I still do your workout?</label>
+              <div class="faq-answer">
+                  <p>Absolutely. Our coaches are trained to provide options for each exercise on the floor, in addition to offering a low-impact bike and strider alternative in place of the treadmill for lower body injuries or orthopedic restrictions.</p>
+              </div>
+          </div>
+          <div class="faq-item">
+              <input type="checkbox" id="faq3" class="faq-toggle">
+              <label for="faq3" class="faq-question">What equipment do you use at Orangetheory?</label>
+              <div class="faq-answer">
+                  <p>Our workout room has a variety of equipment including treadmills (bikes and striders as alternatives), WaterRowers, and floor equipment including dumbbells, benches, TRX suspension trainers, medicine balls, and BOSU trainers.</p>
+              </div>
+          </div>
+          <div class="faq-item">
+              <input type="checkbox" id="faq4" class="faq-toggle">
+              <label for="faq4" class="faq-question">What is EPOC?</label>
+              <div class="faq-answer">
+                  <p>The physiological theory behind the Orangetheory workout is known as “Excess Post-Exercise Oxygen Consumption,” or EPOC. Our 1 hour workout is designed to produce 12 minutes or more of intensities at 84% or higher of maximum heart rate. This program design produces workout “after burn” effect, which is an increased metabolic rate for up to 24 hours after the high intensity interval workout.</p>
+              </div>
+          </div>
+      </div>      
+      </section>
     </main>
+
 
     <!-- footer section start -->
     <footer>
@@ -242,15 +260,13 @@
                     <h1>Fitness</h1>
                     <p>Fitness refers to a state of physical health and well-being. It encompasses various components that collectively contribute to the ability of an individual to perform daily activities with vigor and without undue fatigue</p>
                 </div>
-    
                 <div class="get-started-content1">
-                    <h2>Get Staarted</h2>
+                    <h2>Get Started</h2>
                     <p>Service</p>
                     <p>Contact Us</p>
                     <p>Affilliate Program</p>
                     <p>About Us</p>
                 </div>
-    
                 <div class="get-started-content1">
                     <h2>Get started</h2>
                     <p>Fitness</p>
